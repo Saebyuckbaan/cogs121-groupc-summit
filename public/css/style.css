@@ -20,4 +20,17 @@ a {
 /**
  * Add padding around the buttons
  */
-
+#fixedbutton{
+  position:fixed;
+  bottom:0px;
+  right:100px;
+}
+.glyphicon {
+  color: black;
+  font-size: 30px;
+  padding: 20px;
+  float: right;
+}
+.clickable {
+    cursor: pointer;
+}
