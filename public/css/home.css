@@ -16,7 +16,7 @@ ul {
 }
 
 li {
-	display: inline-block;
+	display: block;
 }
 
 a {
@@ -34,6 +34,7 @@ a {
 
 .line2 {
 	margin: 10px 10px;
+	border-color: #aaa;
 }
 
 .page-heading {
@@ -50,32 +51,108 @@ a {
 	padding-bottom: 5px;
 }
 
-#chatMessages {
+@media (min-width: 500px) and (max-width: 700px) {
+	.container {
+		max-width: 90%;
+	}
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+	.container {
+		max-width: 70%;
+	}
+}
+
+@media (min-width: 900px) {
+	.container {
+		max-width: 50%;
+	}
+}
+
+@media (max-height: 568px) {
+	#chatMessages {
+		margin-top: 5px;
+		height: 250px;
+		overflow: auto;
+		background-color: rgba(255, 255, 255, 0.75);
+		border-radius: 4px;
+	}
+}
+
+@media (min-height: 569px) and (max-height: 667px) {
+	#chatMessages {
+		margin-top: 5px;
+		height: 350px;
+		overflow: auto;
+		background-color: rgba(255, 255, 255, 0.75);
+		border-radius: 4px;
+	}
+}
+
+@media (min-height: 668px) and (max-height: 736px) {
+	#chatMessages {
+		margin-top: 5px;
+		height: 350px;
+		overflow: auto;
+		background-color: rgba(255, 255, 255, 0.75);
+		border-radius: 4px;
+	}
+}
+
+@media (min-height: 737px) {
+	#chatMessages {
+		margin-top: 5px;
+		height: 500px;
+		overflow: auto;
+		background-color: rgba(255, 255, 255, 0.75);
+		border-radius: 4px;
+	}
+}
+
+/*#chatMessages {
 	margin-top: 5px;
 	height: 340px;
 	overflow: auto;
+	background-color: rgba(255, 255, 255, 0.75);
+	border-radius: 4px;
+}*/
+
+.user {
+	display: block;
 }
 
 .user-image {
 	float: left;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+.user-image img {
+	border-radius: 4px;
 }
 
 .user-info {
-	float: left;
+	display: inline-block;
+	/*float: left;*/
 	padding-top: 2px;
 	padding-left: 5px;
 }
 
 .username {
+	font-size: 15px;
 	font-weight: bold;
 }
 
 .posted {
 	font-size: 10px;
+	color: #aaa;
 }
 
 .message-content {
+	display: block;
+	margin-top: 5px;
 	padding-top: 5px;
+	display: block;
 }
 
 
