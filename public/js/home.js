@@ -20,15 +20,22 @@ function initializePage() {
 
 	var socket = io();
 	$("#shareBtn").click(function() {
-		var sendData = {
-			"message": $("#user_input").val(),
-			"level": $("#class-level").text(),
-			"resort": $("#location-name").text()
-		};
+		var msg = $("#user_input").val();
 
-		socket.emit('newsfeed', sendData);
-		$("#user_input").val('');
-		return false;
+		  if( $.trim(msg) == '' ) {
+			  alert("No message to send!");
+		  }
+		  else {
+		  var sendData = {
+			  "message": $("#user_input").val(),
+			  "level": $("#class-level").text(),
+			  "resort": $("#location-name").text()
+		  };
+
+		  socket.emit('newsfeed', sendData);
+		  $("#user_input").val('');
+		  return false;
+	  }
 	});
 
 	socket.on("newsfeed", function(data){
@@ -49,6 +56,7 @@ function initializePage() {
                 '</div>';
       return result;
      }
+     $('#messages').prepend($('<hr class="line2"/>'));
 	});
 
 	$("#switchForm").submit( function ( event ){
