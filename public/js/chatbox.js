@@ -2,6 +2,7 @@
     "use strict";
     /* TODO: Start your Javascript code here */
     var socket = io();
+
     $('#send_message').submit(function( event ){
         
         //send a message from client side to serverside.
