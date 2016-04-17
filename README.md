@@ -29,20 +29,21 @@
   - The design of our app focuses on minimalism.
   - The design is simple and pleasing
 
-9. Help users recognize, diagnose, and recover from errors
+9. Help users recognize, diagnose, and recover from errors'
+  - Users must select valid skill level and ski resort in order to enter a chat room. If a user doesn't have a selection for both options and clicks on the "Share Experience" button, an error message will pop up and say "You must select valid skill level and ski resort".
 
 10. Help and documentation
-  - There is a help documentation on every page if users ever get confused and lost. 
+  - There is a help documentation on home page explaining the purpose of our app and instructions on how to use the app.
 
 ## Distribution of Work
 Davis Yi:
 - set up the github repository
 - wrote the skeleton code for the search page
 - styled the search page
-- set up the heroku app and deploy
+- set up the heroku app and deploy it
 
 Elaine Hu:
-- wrote the schema for Mongo
+- set up the database using MongoDB
 - styled the home page
 
 Paulo Gonzales:
