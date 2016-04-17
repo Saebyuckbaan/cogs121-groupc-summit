@@ -58,3 +58,5 @@ Mustafa Khan:
 - wrote the skeleton code for the login page
 - implemented the authentication
 - styled the login page
+
+
