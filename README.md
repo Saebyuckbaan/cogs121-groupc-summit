@@ -1,4 +1,5 @@
 #Assignment 1 Part 2: Summit
+#App Heroku URL : http://cogs121-groupc-summit.herokuapp.com/
 ##Heuristics Evaluation
 1. Visibility of System Status
 
@@ -38,6 +39,7 @@ Davis Yi:
 - set up the github repository
 - wrote the skeleton code for the search page
 - styled the search page
+- set up the heroku app and deploy
 
 Elaine Hu:
 - wrote the schema for Mongo
