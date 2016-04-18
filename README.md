@@ -3,14 +3,14 @@
 ##Heuristics Evaluation
 1. Visibility of System Status
 
-  - At the top of the page, the navigation bar informs users which page they are or which chat room they are in by showing the location and skill levels
+  - At the top of the page, the title informs users which page they are or which chat room they are in by showing the ski resort and skill level
 
 2. Match between system and the real world
   - The language is appropriate for all audience, not just typical skiiers/snowboarders.
   - For example, the different skill levels are labeled as easiest, intermediate, advanced, and expert.
 
 3. User control and freedom
-  - The main navigation bar contains two dropdown menus, which allow users to navigate through different chat rooms.
+  - There is a button labeled as "Switch to different chat" at the top, which allow users to navigate through different chat rooms.
 
 4. Consistency and standards
   - The logout button is located on the right-top corner, similar to popular social media websites.
@@ -24,10 +24,11 @@
   - The whole user experience is very systematic and does not require any need to recall information from memory.
 
 7. Flexbility and efficiency of use
+  - Users can copy and paste the link of the page if there is one chat room they use it most often, so they don't have to pick their skill level and ski resort again every time they log in.  
 
 8. Aesthetic and minimalistic design
   - The design of our app focuses on minimalism.
-  - The design is simple and pleasing
+  - The design is simple and easy to use
 
 9. Help users recognize, diagnose, and recover from errors'
   - Users must select valid skill level and ski resort in order to enter a chat room. If a user doesn't have a selection for both options and clicks on the "Share Experience" button, an error message will pop up and say "You must select valid skill level and ski resort".
